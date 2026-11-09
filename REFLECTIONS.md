@@ -25,6 +25,18 @@ fit for an LLM and a plain record of your own actions is not.
 
 An LLM can interpret varied wording and turn it into a structured list that we can check. Applications I actually sent are facts to record directly, not predictions for a model to invent.
 
+**Reflect, before reading further:** what formatting inconsistency do you expect across independent LLM calls?
+
+I expect the same skill to appear as "Python" and "python" in different postings. Counting raw strings would split that skill into two entries.
+
+**Reflect:** did you find an instance of inconsistent formatting in your extracted skills?
+
+Yes: "generative AI" and "Generative AI" both appear in my extraction. I normalize casing and whitespace when counting, keeping the raw extraction local for review.
+
+**Reflect:** why is the critique pass human-in-the-loop, and why review extracted.json rather than kpi.json?
+
+A second person compares each model output with its source and can challenge missed or invented skills. The aggregate KPI loses that link, so it cannot support this check; the classmate review is still pending.
+
 **Reflect, before you read the code below:** the script is about to define
 `TARGET_SKILL = "python"` — a choice someone (this manual) already made for you. If
 you were building this dashboard for ENSIM's own curriculum committee, what single
