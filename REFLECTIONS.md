@@ -66,5 +66,7 @@ committee, per Stage 4's framing)? Does the page's current title and one-line
 description actually match that audience? If not, what one sentence would you
 change?
 
+The audience is currently me checking my extraction, rather than a curriculum committee making a decision. I changed the description to: "A student dashboard to check SQL and cloud skill mentions in 12 job postings, not a representative labour-market survey."
+
 **Reflect:** write two sentences comparing your two KPIs — the one from Stage 4 and
 this new one. Which would you actually trust to drive a real decision, and why?
