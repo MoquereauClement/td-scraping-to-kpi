@@ -70,3 +70,5 @@ The audience is currently me checking my extraction, rather than a curriculum co
 
 **Reflect:** write two sentences comparing your two KPIs — the one from Stage 4 and
 this new one. Which would you actually trust to drive a real decision, and why?
+
+My SQL KPI is 0/12, while the share mentioning at least one cloud provider is 2/12 (16.7%). I would trust neither alone for a real decision because both depend on a small sample and descriptions truncated before extraction.
