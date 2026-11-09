@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-11-09T15:47:20Z",
+  "kpi_label": "% of postings mentioning 'sql'",
+  "kpi_value": 0.0,
+  "n_postings_analyzed": 12,
+  "n_matching": 0,
+  "top_skills": [
+    {
+      "skill": "ai",
+      "count": 4
+    },
+    {
+      "skill": "generative ai",
+      "count": 3
+    },
+    {
+      "skill": "computer vision",
+      "count": 2
+    },
+    {
+      "skill": "python",
+      "count": 2
+    },
+    {
+      "skill": "software engineering",
+      "count": 1
+    },
+    {
+      "skill": "360\u00b0 video",
+      "count": 1
+    },
+    {
+      "skill": "image technology",
+      "count": 1
+    },
+    {
+      "skill": "can",
+      "count": 1
+    },
+    {
+      "skill": "flexray",
+      "count": 1
+    },
+    {
+      "skill": "version control",
+      "count": 1
+    }
+  ],
+  "avg_skills_per_posting": 5.92,
+  "cloud_kpi": {
+    "kpi_label": "% of postings mentioning AWS, Azure or Google Cloud",
+    "kpi_value": 0.167,
+    "n_matching": 2
+  }
+}

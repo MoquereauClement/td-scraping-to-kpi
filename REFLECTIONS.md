@@ -50,6 +50,8 @@ Compare the two `kpi_value` numbers. Which version would you actually trust to t
 a curriculum committee "students should learn X next" — the default, your own
 choice, or neither? Say why in two or three sentences.
 
+Python gives 0.167 (2/12), while my SQL choice gives 0.000 (0/12). I would trust neither alone for curriculum decisions: the sample is small and truncation already hides some real Python mentions.
+
 **Reflect:** if a classmate looked only at your published `kpi.json` (never your
 local files), could they reconstruct which specific postings you scraped, or which
 company any of them came from? If they genuinely couldn't — what exactly did you
