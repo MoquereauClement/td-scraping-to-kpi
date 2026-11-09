@@ -14,8 +14,7 @@ not. In your own words, what's the actual difference in risk between the two? Wo
 your answer change if this repo were private instead of public — and if so, why does
 public/private matter here at all?
 
-If you use the government open data to create your own website, you will be fined. 
-However if it's used in a private context and don't create a website, you can't be fined. 
+The manual says France Travail data is licensed for reuse, while the jobspy sample is not licensed for redistribution. A private repo reduces exposure but does not create permission to share the scraped text.
 
 **Reflect, before you run anything:** CM5 argues agentic AI belongs at specific
 pipeline stages, not everywhere. This TD extracts skills with an LLM, but nothing in
@@ -24,11 +23,15 @@ what your real skill level is. Using CM5's own distinction (not just "because it
 convenient"), explain in your own words *why* free-text-to-structured-list is a good
 fit for an LLM and a plain record of your own actions is not.
 
+An LLM can interpret varied wording and turn it into a structured list that we can check. Applications I actually sent are facts to record directly, not predictions for a model to invent.
+
 **Reflect, before you read the code below:** the script is about to define
 `TARGET_SKILL = "python"` — a choice someone (this manual) already made for you. If
 you were building this dashboard for ENSIM's own curriculum committee, what single
 skill would *you* choose to track first, and why? Write your answer down now, before
 you see what number the default choice actually produces.
+
+I would track SQL first because querying structured data is useful across BI and data roles. I chose it before computing either percentage.
 
 **Reflect:** now change `TARGET_SKILL` to the skill you named above and re-run.
 Compare the two `kpi_value` numbers. Which version would you actually trust to tell
