@@ -58,6 +58,8 @@ company any of them came from? If they genuinely couldn't — what exactly did y
 have to leave out of the KPI's fields to guarantee that, and was that a deliberate
 design choice in `compute_kpi()` or just luck?
 
+The published file has no titles, companies, URLs, descriptions or per-posting records, only aggregate counts and skill names. That omission is deliberate in compute_kpi(), although aggregates cannot guarantee anonymity against every external source.
+
 **Reflect:** who is the actual audience for this dashboard as it stands right now —
 you personally, checking your own work, or someone else entirely (e.g. a curriculum
 committee, per Stage 4's framing)? Does the page's current title and one-line
